@@ -3,7 +3,7 @@ resource "aws_lb_target_group" "main" {
   port     = local.tg_port
   protocol = "HTTP"
   vpc_id   = local.vpc_id
-  deregistration_delay = 120
+  deregistration_delay = 100
 
   health_check {
     healthy_threshold = 2

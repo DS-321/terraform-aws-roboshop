@@ -14,9 +14,7 @@ variable "zone_id" {
 }
 
 variable "component" {
-  
 }
 
 variable "rule_priority" {
-  
 }
